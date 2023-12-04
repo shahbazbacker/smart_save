@@ -1,0 +1,66 @@
+name: smart_save
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  dartz: ^0.10.1
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  get_it: ^7.6.4
+  http: ^1.1.0
+  flutter_svg: ^2.0.9
+  flutter_spinkit: ^5.2.0
+  shimmer: ^3.0.0
+  flutter_rating_bar: ^4.0.1
+  cached_network_image: ^3.3.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  internet_connection_checker_plus: ^2.1.0
+#  internet_connection_checker: ^1.0.0+1
+  path_provider: ^2.1.1
+  oktoast: ^3.4.0
+  lottie: ^2.7.0
+
+
+
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  mocktail: ^1.0.1
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.6
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/animations/
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/OpenSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/OpenSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/OpenSans-ExtraBold.ttf
+          weight: 900
+
